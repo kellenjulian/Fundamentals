@@ -1,0 +1,105 @@
+body {
+    background-image: url("../Tutorial-Website-Project/Tutorial-Website-Project-Assets/LLS 2.2.jpg");
+    background-repeat: repeat-x;
+    background-position: left top;
+}
+
+
+.wrapper {
+    margin: 25px;
+    padding: 25px;
+    background: lightseagreen;
+}
+
+a:link {
+    color: aqua;
+}
+
+
+a:visited {
+    color: #00FF00;
+}
+
+a:hover { 
+    color: palevioletred;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+    border-width: 3px; 
+}
+
+.titleClass {
+    text-align: center;
+    background: linear-gradient(teal, seagreen);
+    margin: 50px;
+    padding: 50px;
+    font-size: 25px;
+    color: orangered;
+}
+
+.navHeaderClass {
+    width: 200px;
+    height: 500px;
+    color: aqua;
+    background: linear-gradient(plum, papayawhip);
+    z-index: 2;
+    margin: 50px;
+    padding: 25px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.navHeaderClass hr{
+    margin-top: 0.5px;
+}
+
+
+.navigationBar {
+    width: 20px;
+    height: 500px;
+    float: left;
+    color: aqua;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.sideBarLinks {
+    font-size: 20px;
+    z-index: 2;
+    float: left;
+    color: black;
+}
+
+.sectionOne {
+    width: 70%;
+    font-size: 15px;
+    float: right;
+    margin: auto;
+    padding: 15px;
+    background: seagreen;
+}
+
+.footerStyle {
+    color: orangered;
+    background: lightseagreen;
+    position: relative;
+    font-size: 20px;
+    top: 750px;
+    margin: 50px;
+    padding: 25px;
+    border: groove 5px yellowgreen;
+
+}
+
+.footerStyle a {
+    margin: 5px;
+    padding: 10px;
+}
+
